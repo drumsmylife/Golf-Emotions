@@ -1,4 +1,3 @@
-/* This file should be in a folder called `js` */
 
 var clock = document.getElementById('clock');
 var hexColor = document.getElementById('hex-color');
@@ -31,3 +30,12 @@ function hexClock() {
 
 hexClock();
 setInterval(hexClock, 1000);
+
+function myFunction() {
+  var x = document.getElementById("clickMe");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

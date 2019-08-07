@@ -1,21 +1,25 @@
  #goInBall {
 width: 30%;
 height: 30%;
+visibility: hidden;
 }
 
 #seeYa {
 width: 30%;
 height: 30%;
+visibility: hidden;
 }
 
 #cmon {
 width: 30%;
 height: 30%;
+visibility: hidden;
 }
 
 #enough {
 width: 30%;
 height: 30%;
+visibility: hidden;
 }
 
 body {
