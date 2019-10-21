@@ -33,19 +33,24 @@ setInterval(hexClock, 1000);
 
 
 function showImg() {
-  var inBall = document.getElementById('goInBall');
-  if (inBall.style.display === 'none') {
-    inBall.style.display = 'block';
-  } else {
-    inBall.style.display = 'none';
-  }
+  document.getElementById("goInBall").style="display:block";
+  
 }
+showImg();
 
-function showImg() {
-  var hips = document.getElementById('seeYa');
-  if (hips.style.display === 'none') {
-    hips.style.display = 'block';
-  } else {
-    hips.style.display = 'none';
+function hide(){
+
+  document.getElementById('goInBall').style='display:none';;
+  
   }
-}
+  hide();
+
+
+// function showImg() {
+//   var hips = document.getElementById('seeYa');
+//   if (hips.style.display === 'none') {
+//     hips.style.display = 'block';
+//   } else {
+//     hips.style.display = 'none';
+//   }
+// }

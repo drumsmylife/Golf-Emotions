@@ -7,24 +7,21 @@ height: 30%;
 #seeYa {
 width: 30%;
 height: 30%;
-/* visibility: hidden; */
+visibility: hidden;
 }
 
 #cmon {
 width: 30%;
 height: 30%;
-/* visibility: hidden; */
+visibility: hidden;
 }
 
 #enough {
 width: 30%;
 height: 30%;
-/* visibility: hidden; */
+visibility: hidden;
 }
 
-#clickMe {
-   
-}
 
 body {
     font-family: 'Lato';
