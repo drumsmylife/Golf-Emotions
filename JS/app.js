@@ -31,11 +31,8 @@ function hexClock() {
 hexClock();
 setInterval(hexClock, 1000);
 
-function myFunction() {
-  var x = document.getElementById("clickMe");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+function showImg () {
+document.getElementById("goIball")
 }
+
+
