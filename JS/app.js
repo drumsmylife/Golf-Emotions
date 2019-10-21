@@ -32,25 +32,58 @@ hexClock();
 setInterval(hexClock, 1000);
 
 
-function showImg() {
+function showPumped() {
   document.getElementById("goInBall").style="display:block";
   
 }
-showImg();
+showPumped();
 
-function hide(){
+function hidePumped(){
 
   document.getElementById('goInBall').style='display:none';;
   
   }
-  hide();
+  hidePumped();
 
 
-// function showImg() {
-//   var hips = document.getElementById('seeYa');
-//   if (hips.style.display === 'none') {
-//     hips.style.display = 'block';
-//   } else {
-//     hips.style.display = 'none';
-//   }
-// }
+
+
+  function showPissed () {
+  document.getElementById('enough').style="display:block";
+}
+showPissed();
+
+function hidePissed(){
+
+  document.getElementById('enough').style='display:none';;
+  
+  }
+  hidePissed();
+
+  
+  
+  
+  function showCalm () {
+    document.getElementById('hips').style="display:block";
+  }
+  showCalm();
+  
+  function hideCalm(){
+  
+    document.getElementById('hips').style='display:none';;
+    
+    }
+    hideCalm();
+
+
+    function uSerious () {
+      document.getElementById('cmon').style="display:block";
+    }
+   uSerious();
+    
+    function hideuSerious(){
+    
+      document.getElementById('cmon').style='display:none';;
+      
+      }
+      hideuSerious();
