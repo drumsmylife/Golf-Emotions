@@ -31,8 +31,21 @@ function hexClock() {
 hexClock();
 setInterval(hexClock, 1000);
 
-function showImg () {
-document.getElementById("goIball")
+
+function showImg() {
+  var inBall = document.getElementById('goInBall');
+  if (inBall.style.display === 'none') {
+    inBall.style.display = 'block';
+  } else {
+    inBall.style.display = 'none';
+  }
 }
 
-
+function showImg() {
+  var hips = document.getElementById('seeYa');
+  if (hips.style.display === 'none') {
+    hips.style.display = 'block';
+  } else {
+    hips.style.display = 'none';
+  }
+}
