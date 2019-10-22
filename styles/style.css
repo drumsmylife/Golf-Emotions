@@ -30,6 +30,10 @@ margin-right: auto;
 /* visibility: hidden; */
 }
 
+#hex-color {
+  visibility: hidden;
+}
+
 
 body {
     font-family: 'Lato';
