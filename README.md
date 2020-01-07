@@ -6,12 +6,12 @@ course.
 
 2.Input your scores into the scorecard
 
-3.If course is not found/use empty scorecard
-to at least kee track of score
-
-4.Click on the clock button and see what Gif
+3.Click on the clock button and see what Gif
 shows up and see if it is accurate on your
 current emotions of your round
+
+4.Submit your score card by pressing the submit button and Happy Gilmore
+will let you know how you did! 
 
 Technologies Used
 1.HTML
